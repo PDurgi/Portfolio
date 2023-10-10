@@ -1,38 +1,35 @@
-# create-svelte
+# My Responsive Web Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to my responsive web portfolio! This portfolio showcases my web development work and provides links to my resume, GitHub projects, and LinkedIn profile.
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **JavaScript Framework**: [SvelteKit](https://kit.svelte.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Hosting**: [Vercel](https://vercel.com/)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Project Details
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### View My Portfolio
 
-## Developing
+Visit my web portfolio to see my projects and learn more about my skills and experiences: [View Portfolio](https://porfolio-pooja-knafx6puo-pdurgis-projects.vercel.app/)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Getting Started
 
-```bash
-npm run dev
+To set up this project locally, follow these steps:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. Clone the repository:
 
-## Building
+   ```bash
+   git clone https://github.com/your-github-username/your-portfolio.git
 
-To create a production version of your app:
+2. cd your-portfolio
 
-```bash
-npm run build
-```
+   ```bash
+   npm install
+3. Run Locally:
+    ```bash
+    npm run dev
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+4. Build and Deploy
+You can build and deploy this project to Vercel or any other hosting platform of your choice. Be sure to configure your deployment settings as per your hosting platform's requirements.
