@@ -1,10 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/kit/vite';
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+// svelte.config.js
+
+import adapter from '@sveltejs/adapter-static';
+
+export default {
   kit: {
-    adapter: adapter()
+    // Other SvelteKit configurations
+    // ...
+
+    // Add this adapter configuration with the correct target selector
+    adapter: adapter({
+      fallback: '404.html',
+      target: 'body > .relative.z-[1]'
+    }),
   },
-  preprocess: vitePreprocess()
 };
-export default config;
