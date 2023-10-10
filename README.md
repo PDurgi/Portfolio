@@ -12,6 +12,7 @@ Welcome to my responsive web portfolio! This portfolio showcases my web developm
 
 ### View My Portfolio
 Visit my web portfolio to see my projects and learn more about my skills and experiences: <a href="https://porfolio-pooja-knafx6puo-pdurgis-projects.vercel.app/" target="_blank">Pooja Durgi's Portfolio</a>
+
 ## Getting Started
 
 To set up this project locally, follow these steps:
